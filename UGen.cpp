@@ -74,10 +74,12 @@ int main() {
 
     cout << clear_screen;
     menu();
+    cout << "═══════════════════════════════════════════════════════════════════════════════════════════════════════════\n";
     cout << "Welcome to UGen, a C++ coded Open-Source software designed to secure the user with a strong password.\n";
     cout << "You may not distribute or modify code unless granted permission to.\n";
     cout << "0x16000 on GitHub all rights reserved, Rheinland-Pfalz, Germany\n";
-    cout << "Licensed under the GNU General Public License 3.0, see: https://www.gnu.org/licenses/gpl-3.0.html for more.\n\n";
+    cout << "Licensed under the GNU General Public License 3.0, see: https://www.gnu.org/licenses/gpl-3.0.html for more.\n";
+    cout << "═══════════════════════════════════════════════════════════════════════════════════════════════════════════\n\n";
 
     cout << "Choose password length (1-18):\n";
     shell_prompt();

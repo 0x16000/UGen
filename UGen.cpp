@@ -4,6 +4,7 @@
 #include <ctime>
 #include <algorithm>
 #include <unistd.h>
+#include <fstream>
 
 using namespace std;
 
@@ -89,6 +90,10 @@ int main() {
         random_string = Gen::generate(input);
         string category = (input < 8) ? "short" : "long";
         cout << "Generated " << category << " password: " << random_string << "\n";
+        ofstream file;
+        file.open ("save.txt");
+        file << random_string << "\n";
+        file.close();
     } else {
         cout << "Invalid value or maximum reached.\n";
     }

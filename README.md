@@ -9,7 +9,7 @@ Depends on what character length you would set it, generally 8-13 characters wou
 Since it's C++ you will have to use G++ on Linux,
 compile using:
 ```bash
-g++ -o UGen UGen.c
+g++ -o UGen UGen.cpp
 ````
 
 # Will it be updated or stay like this?
